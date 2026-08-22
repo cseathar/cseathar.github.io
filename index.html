@@ -2,27 +2,593 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mohd Athar | Portfolio</title>
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
-        body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
-        .card { max-width: 500px; background: #1e293b; padding: 40px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); text-align: center; border: 1px solid #334155; }
-        h1 { font-size: 2.2rem; color: #38bdf8; margin-bottom: 10px; }
-        h2 { font-size: 1.1rem; color: #94a3b8; font-weight: 400; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 1px; }
-        p { color: #cbd5e1; font-size: 1.05rem; margin-bottom: 25px; }
-        .btn { display: inline-block; background: #0284c7; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; transition: background 0.2s; }
-        .btn:hover { background: #0369a1; }
-    </style>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Mohd Athar - PhD Researcher in Computer Vision">
+
+    <title>Mohd Athar | Computer Vision Researcher</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
 </head>
+
 <body>
 
-    <div class="card">
-        <h1>Mohd Athar</h1>
-        <h2>Data Scientist</h2>
-        <p>Welcome to my personal slice of the internet. I am building this entire profile website completely from scratch.</p>
-        <a href="https://github.com" class="btn" target="_blank">View My GitHub Profile</a>
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="#home" class="logo">
+            ATHAR<span>.</span>
+        </a>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#research">Research</a>
+            <a href="#publications">Publications</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
     </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-text">
+
+            <p class="eyebrow">
+                PhD Researcher · Computer Vision
+            </p>
+
+            <h1>
+                Hello, I'm<br>
+                <span>Mohd Athar.</span>
+            </h1>
+
+            <p class="hero-description">
+
+                I am a PhD researcher working on
+                <strong>Computer Vision</strong>,
+                with a focus on
+                <strong>Domain Generalization</strong>,
+                <strong>Source-Free Generalization</strong>,
+                and robust visual representation learning.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#research" class="btn primary">
+                    Explore My Research
+                </a>
+
+                <a href="assets/cv.pdf"
+                   class="btn secondary"
+                   target="_blank">
+                    Download CV
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="https://github.com/cseathar"
+                   target="_blank">
+                    GitHub
+                </a>
+
+                <a href="#"
+                   target="_blank">
+                    Google Scholar
+                </a>
+
+                <a href="#"
+                   target="_blank">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="image-wrapper">
+
+                <img src="assets/profile.jpg"
+                     alt="Mohd Athar">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about" class="section">
+
+    <div class="section-header">
+
+        <p class="section-number">01</p>
+
+        <h2>About Me</h2>
+
+    </div>
+
+    <div class="about-content">
+
+        <div>
+
+            <p>
+                I am a PhD researcher specializing in Computer Vision.
+                My research focuses on developing machine learning
+                models that can generalize reliably beyond the
+                domains and distributions observed during training.
+            </p>
+
+            <p>
+                My current interests include Domain Generalization,
+                Source-Free Domain Generalization, robust visual
+                representation learning, and vision-language models.
+                I am particularly interested in understanding why
+                current models fail under distribution shifts and
+                designing methods that improve their robustness.
+            </p>
+
+        </div>
+
+        <div class="about-card">
+
+            <h3>Research Interests</h3>
+
+            <ul>
+
+                <li>Domain Generalization</li>
+
+                <li>Source-Free Domain Generalization</li>
+
+                <li>Out-of-Distribution Detection</li>
+
+                <li>Vision-Language Models</li>
+
+                <li>Robust Representation Learning</li>
+
+                <li>Self-Supervised Learning</li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESEARCH ================= -->
+
+<section id="research" class="section research-section">
+
+    <div class="section-header">
+
+        <p class="section-number">02</p>
+
+        <h2>Research</h2>
+
+    </div>
+
+    <p class="section-intro">
+
+        My research explores how visual models can remain
+        reliable when deployed on data distributions that differ
+        from those seen during training.
+
+    </p>
+
+
+    <div class="research-grid">
+
+        <article class="research-card">
+
+            <div class="card-number">01</div>
+
+            <h3>Domain Generalization</h3>
+
+            <p>
+                Learning representations that transfer effectively
+                to unseen domains without requiring access to target
+                domain data during training.
+            </p>
+
+        </article>
+
+
+        <article class="research-card">
+
+            <div class="card-number">02</div>
+
+            <h3>Source-Free Generalization</h3>
+
+            <p>
+                Exploring generalization when source training images
+                are unavailable and only learned knowledge or
+                semantic information can be used.
+            </p>
+
+        </article>
+
+
+        <article class="research-card">
+
+            <div class="card-number">03</div>
+
+            <h3>Robust Representation Learning</h3>
+
+            <p>
+                Developing learning strategies that encourage
+                invariant and transferable visual representations
+                under distribution shifts.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PUBLICATIONS ================= -->
+
+<section id="publications" class="section">
+
+    <div class="section-header">
+
+        <p class="section-number">03</p>
+
+        <h2>Selected Publications</h2>
+
+    </div>
+
+
+    <div class="publication">
+
+        <div class="publication-year">
+            2026
+        </div>
+
+        <div>
+
+            <h3>
+                StyleVerse: Infinite Style Sampling and
+                Domain-Aware Text Adapters for
+                Source-Free Generalization
+            </h3>
+
+            <p class="authors">
+                Mohd Athar, et al.
+            </p>
+
+            <p class="venue">
+                Computer Vision / Domain Generalization
+            </p>
+
+            <div class="publication-links">
+
+                <a href="#">Paper</a>
+
+                <a href="#">Code</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="publication">
+
+        <div class="publication-year">
+            2026
+        </div>
+
+        <div>
+
+            <h3>
+                MC-ADG: Meta-Contrastive Attentive
+                Domain Generalization
+            </h3>
+
+            <p class="authors">
+                Mohd Athar, et al.
+            </p>
+
+            <p class="venue">
+                Domain Generalization
+            </p>
+
+            <div class="publication-links">
+
+                <a href="#">Paper</a>
+
+                <a href="#">Code</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects"
+         class="section projects-section">
+
+    <div class="section-header">
+
+        <p class="section-number">04</p>
+
+        <h2>Projects</h2>
+
+    </div>
+
+
+    <div class="project-grid">
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span>01</span>
+
+                <a href="https://github.com/cseathar"
+                   target="_blank">
+                    ↗
+                </a>
+
+            </div>
+
+            <h3>Domain Generalization</h3>
+
+            <p>
+                Experiments with ERM, gradient-guided
+                optimization, self-supervised learning,
+                and domain generalization benchmarks.
+            </p>
+
+            <div class="tags">
+
+                <span>PyTorch</span>
+                <span>DomainBed</span>
+                <span>Computer Vision</span>
+
+            </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span>02</span>
+
+                <a href="https://github.com/cseathar"
+                   target="_blank">
+                    ↗
+                </a>
+
+            </div>
+
+            <h3>StyleVerse</h3>
+
+            <p>
+                Source-free domain generalization using
+                style modelling, semantic style vocabularies,
+                and domain-aware text adaptation.
+            </p>
+
+            <div class="tags">
+
+                <span>CLIP</span>
+                <span>SFDG</span>
+                <span>Vision-Language</span>
+
+            </div>
+
+        </article>
+
+
+        <article class="project-card">
+
+            <div class="project-top">
+
+                <span>03</span>
+
+                <a href="https://github.com/cseathar"
+                   target="_blank">
+                    ↗
+                </a>
+
+            </div>
+
+            <h3>Research Experiments</h3>
+
+            <p>
+                Implementation and evaluation of modern
+                computer vision methods across PACS,
+                VLCS, OfficeHome, and DomainNet.
+            </p>
+
+            <div class="tags">
+
+                <span>Research</span>
+                <span>PyTorch</span>
+                <span>DG</span>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="section education-section">
+
+    <div class="section-header">
+
+        <p class="section-number">05</p>
+
+        <h2>Education</h2>
+
+    </div>
+
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-date">
+                PhD
+            </div>
+
+            <div>
+
+                <h3>
+                    Doctor of Philosophy
+                </h3>
+
+                <p>
+                    Computer Science & Engineering
+                </p>
+
+                <p>
+                    Research focus: Computer Vision,
+                    Domain Generalization and Robust ML
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+            <div class="timeline-date">
+                Previous
+            </div>
+
+            <div>
+
+                <h3>
+                    Academic Background
+                </h3>
+
+                <p>
+                    Computer Science & Engineering
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact-section">
+
+    <div class="contact-container">
+
+        <p class="section-number">
+            06
+        </p>
+
+        <h2>
+            Let's connect.
+        </h2>
+
+        <p>
+            I am always interested in discussing research,
+            computer vision, domain generalization, and
+            potential collaborations.
+        </p>
+
+        <a href="mailto:YOUR_EMAIL@example.com"
+           class="email">
+            YOUR_EMAIL@example.com
+        </a>
+
+        <div class="contact-links">
+
+            <a href="https://github.com/cseathar"
+               target="_blank">
+                GitHub
+            </a>
+
+            <a href="#"
+               target="_blank">
+                Google Scholar
+            </a>
+
+            <a href="#"
+               target="_blank">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+        © 2026 Mohd Athar. Built with HTML & CSS.
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
